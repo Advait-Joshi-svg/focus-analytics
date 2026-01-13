@@ -1,0 +1,110 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #0f0f10;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  font-weight: 500;
+  color: #8a8dff;
+  text-decoration: none;
+}
+a:hover {
+  color: #a3a6ff;
+}
+
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 800;
+}
+
+
+button {
+  border-radius: 10px;
+  border: 1px solid #2a2a2e;
+  padding: 0.6em 1.2em;
+  font-size: 0.95em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #1a1a1d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+  background-color: #222226;
+  border-color: #3a3a3e;
+}
+
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #646cff;
+}
+
+input {
+  font-family: inherit;
+  color: white;
+}
+
+
+.recharts-responsive-container {
+  min-width: 0 !important;
+}
+
+.recharts-responsive-container > div {
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+
+table {
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2e;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
