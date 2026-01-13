@@ -1,16 +1,22 @@
-# React + Vite
+# Focus Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time productivity analytics dashboard built with React.  
+Focus Analytics tracks focus sessions, distractions, and trends to help users understand and improve how they spend focused time.
 
-Currently, two official plugins are available:
+---
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Session Tracking**
+  - Start and end focus sessions
+  - Track distractions per session
+  - Real-time updates while a session is active
 
-## React Compiler
+- **Analytics Dashboard**
+  - Total focus time
+  - Focus score calculation
+  - Distractions per hour
+  - Session summaries and averages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Filtering & Search**
+  - Filter sessions by Today / Last 7 Days / All Time
+  - Search sessions by time or status
